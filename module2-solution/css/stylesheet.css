@@ -1,0 +1,140 @@
+<style>
+
+body {
+  font-family: Helvetica;
+}
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+div {
+  position: relative;
+}
+
+p {
+  margin: 5px;
+  width: 30%;
+ 
+  margin-left: 5px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  
+}
+#p1 {
+  
+  float: right;
+  background-color: #A52A2A;
+  color: white;
+  font-size: 1.25em;
+  text-align: center;
+  
+}
+#p2 {
+  float: right;
+  background-color: #DEB887;
+  color: blue;
+  font-size: 1.25em;
+  text-align: center;
+  
+}
+#p3 {
+  float: right;
+  background-color: #5F9EA0;
+  color: red;
+  font-size: 1.25em;
+  text-align: center;
+}
+#p4 {
+ 
+  
+  background-color: #dddddd;
+  width: auto;
+  min-height: 150px;
+  color: black;
+  
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px)
+
+  {
+    .col-lg-4, .col-lg-6, .col-lg-12 
+    {
+      float: left;
+      border: 0px ;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .col-lg-4 
+    {
+      width: 33.33%;
+    }
+    .col-lg-6 
+    {
+      width: 50%;
+    }
+    .col-lg-12 
+    {
+      width: 100%;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .col-md-4, .col-md-6,  .col-md-12 
+  {
+    float: left;
+    border: 0px ;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+@media  (max-width: 767px)
+  {
+  .col-sm-4, .col-sm-6,  .col-sm-12 {
+    float: left;
+    border: 0px ;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+</style>
