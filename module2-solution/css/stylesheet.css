@@ -19,7 +19,7 @@ div {
   position: relative;
 }
 
-p {
+span, p {
   margin: 5px;
   width: 30%;
  
@@ -27,39 +27,48 @@ p {
   border: 1px solid black;
   margin-bottom: 15px;
   font-family: Helvetica;
+  clear: both;
   
 }
 #p1 {
-  
-  float: right;
+ float: left; 
+ position: absolute;
+ top: 0;
+ right: 0;
   background-color: #A52A2A;
   color: white;
   font-size: 1.25em;
-  text-align: center;
-  
+
 }
 #p2 {
-  float: right;
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
   background-color: #DEB887;
   color: blue;
   font-size: 1.25em;
-  text-align: center;
-  
+
 }
 #p3 {
-  float: right;
+ float: left; 
+ position: absolute;
+ top: 0;
+ right: 0;
   background-color: #5F9EA0;
   color: red;
   font-size: 1.25em;
-  text-align: center;
+
 }
 #p4 {
  
-  
+  clear: both;
   background-color: #dddddd;
   width: auto;
   min-height: 150px;
   color: black;
+  padding: 25px 5px 5px 5px;
+
   
 }
 
