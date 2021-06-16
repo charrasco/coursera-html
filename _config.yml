@@ -1,0 +1,8 @@
+title: Coursera-html
+description: Proyectos de desarrollo para el curso HTML, CSS3 y JS en Coursera
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
